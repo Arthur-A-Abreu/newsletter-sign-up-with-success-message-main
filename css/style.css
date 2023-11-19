@@ -1,0 +1,148 @@
+body{
+    background-color: hsl(234, 29%, 20%);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Roboto-Bold',sans-serif;
+}
+.card{
+    
+    border-radius: 30px;
+    background-color: white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: hsl(234, 29%, 20%);;
+}
+
+.card.selected{
+    display: block;
+    padding: 15px 35px 15px 35px;
+}
+
+.informations{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    height: 600px;
+    width: 800px;
+    margin-left: 20px;
+} 
+
+
+.p{
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.indications{
+    background-color:none;
+    width: 380px;
+    height: 170px;
+    text-align: start;
+    line-height: 40px;
+    
+}
+.indications li{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.indications .img{
+    margin-right: 20px;
+}
+
+.image{
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit{
+    text-align: start;
+}
+
+.recado{
+    font-size: 12px;
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.recado .none{
+    margin-left: auto;
+    display: none;
+}
+
+.recado .chose{
+    display: block;
+    color:#FF6155;
+}
+
+.email{
+    width: 380px;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: 10% center;
+    padding-left: 20px;
+}
+
+.button{
+    width: 380px;
+    height: 45px;
+    font-weight: bold;
+    color: white;
+    background-color:hsl(234, 29%, 20%);
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover{
+    width: 380px;
+    height: 45px;
+    font-weight: bold;
+    color: hsl(234, 29%, 20%);
+    background-color:#FF6155;
+    border: 0;
+    border-radius: 10px;
+}
+
+.thanks{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    text-align: start; 
+    white-space: pre-line;
+}
+
+.thanks .img{
+    width: 100px;
+    height: 60px;
+}
+
+.tk{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.responsive-image{
+    display: none;
+}

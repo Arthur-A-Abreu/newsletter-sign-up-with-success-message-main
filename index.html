@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="./assets/fonts/Roboto-Bold.ttf">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/fonts/Roboto-Regular.ttf">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+
+<body>
+
+  <!-- Sign-up form start -->
+  <div class="card selected">
+      <img class="responsive-image" src="./assets/images/illustration-sign-up-mobile.svg" alt="">
+    <div class="informations">
+      
+      <div class="text">
+        <h1 class="title">Stay updated!</h1>
+        <p class="p">Join 60,000+ product managers receiving monthly updates on:</p>
+        <div class="indications">
+          <ul>
+            <li><img class="img" src="./assets/images/icon-list.svg" alt="">Product discovery and building what matters
+            </li>
+            <li><img class="img" src="./assets/images/icon-list.svg" alt="">Measuring to ensure updates are a success
+            </li>
+            <li><img class="img" src="./assets/images/icon-list.svg" alt="">And much more!</li>
+          </ul>
+        </div>
+        <div class="submit">
+          <div class="recado">
+            <p>Email address </p>
+            <p class="none ">Valid email required </p>
+          </div>
+          <input class="email" type="email" placeholder="email@company.com">
+
+          <button class="button">Subscribe to monthly newsletter</button>
+        </div>
+      </div>
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="" class="image ">
+    </div>
+  </div>
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+  <div class="card ">
+    <div class="thanks">
+      <img class="img" src="./assets/images/icon-success.svg" alt="">
+      <h1 class="tk">Thanks for <br>subscribing!</h1>
+
+      <p>A confirmation email has been sent to <strong>&nbsp;<span id="email"></span>&nbsp;</strong>.
+        Please open it and click the button inside to confirm your subscription.</p><br>
+
+      <button class="button">Dismiss message</button>
+    </div>
+  </div>
+  <!-- Success message end -->
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Arthur-A-Abreu</a>.
+  </div> -->
+
+  <script src=".//js/index.js"></script>
+</body>
+
+</html>
